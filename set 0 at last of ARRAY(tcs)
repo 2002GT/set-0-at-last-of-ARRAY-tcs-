@@ -16,13 +16,15 @@ int main()
  
   vector<int>v ;
   
-  for(int i=0; i<n; i++){
+  for(int i=0; i<n; i++)
+{
       int ele;
       cin>>ele;
       
     //   if ele is not 0 push back in vector
       
-      if(ele != 0){
+      if(ele != 0)
+{
           v.push_back(ele);
           }
           

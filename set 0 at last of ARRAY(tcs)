@@ -6,6 +6,7 @@
 using namespace std;
 
 int main()
+
 {
 
  int n;
@@ -29,6 +30,7 @@ int main()
           }
           
           else {
+
               
             //   go ahead and check the count of 0
               count0++;

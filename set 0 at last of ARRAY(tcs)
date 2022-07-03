@@ -10,12 +10,14 @@ int main()
 {
 
  int n;
+
  cin>>n;
  
 //  to know the cpunt of 0 and then further push them back
  int count0 = 0;
  
   vector<int>v ;
+
   
   for(int i=0; i<n; i++)
 
@@ -26,6 +28,7 @@ int main()
     //   if ele is not 0 push back in vector
       
       if(ele != 0)
+
 {
           v.push_back(ele);
           }
